@@ -1,3 +1,1 @@
-Benvenuti nel nuovo progetto di Programmazione 2! 
-Spero vi possiate divertire.
-Feature2.
+In questa cartella sono presenti esercizi per il corso di programmazione 2.
