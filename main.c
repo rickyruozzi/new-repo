@@ -1,12 +1,17 @@
 #include <stdio.h>
-int main(){
-        printf("Hello World!");
-        int scelta;
-        printf("Scegli quale programma avviare!\n");
-        scanf("%d",&scelta);
-        printf("%d \n",scelta);
 
-        return 0;
+int main() {
+    printf("Hello World!\n");  // stampa senza \n
+    printf("Scegli quale programma avviare!\n");
+    fflush(stdout);          // svuota il buffer, la stringa appare subito
+    int scelta;
+    scanf("%d", &scelta);
+    switch(scelta){
+        case 1:
+        system("./ProveDiVisualizzazione.c");
+    }
+
+    printf("%d\n", scelta);
+
+    return 0;
 }
-
-
