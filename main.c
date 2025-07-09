@@ -3,7 +3,8 @@
 int main() {
     printf("Hello World!\n");  // stampa senza \n
     printf("Scegli quale programma avviare!\n");
-    printf("1-per le prove di visualizzazione\n2-per il programma che somma 3 uint\n");
+    printf("1-per le prove di visualizzazione\n2-per il programma che somma 3 uint\n"
+    "3-per invertire i valori di un array\n4-per controllare la prima ricorrenza in un valore in un array di interi casuali");
     fflush(stdout);          // svuota il buffer, la stringa appare subito
     int scelta;
     scanf("%d", &scelta);
@@ -13,6 +14,11 @@ int main() {
         break;
         case 2: 
         system("executable\\FindSum.exe");
+        break;
+        case 3: system("executable\\reverseArray.exe");
+        break;
+        case 4:
+        system("executable\\findElement.exe");
         break;
     }
     return 0;

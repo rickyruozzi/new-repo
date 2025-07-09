@@ -19,6 +19,7 @@ int main(){
     }
     int elem;
     printf("Quale elemento vuoi cercare?\n"); 
+    fflush(stdout); 
     scanf("%d",&elem);
     int index=findIndex(arr,elem);
     if(index==-1){
