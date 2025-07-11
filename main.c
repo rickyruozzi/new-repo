@@ -22,7 +22,10 @@ int main() {
         system("executable\\findElement.exe");
         break;
         case 5:
-        system("executable\\findElement.exe");
+        system("executable\\reverseString.exe");
+        break;
+        case 6:
+        system("executable\\valutaStudenti.exe");
         break;
     }
     return 0;
