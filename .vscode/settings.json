@@ -3,6 +3,7 @@
         "*.embeddedhtml": "html",
         "stdlib.h": "c",
         "stdio.h": "c",
-        "ruoli.h": "c"
+        "ruoli.h": "c",
+        "string.h": "c"
     }
 }
