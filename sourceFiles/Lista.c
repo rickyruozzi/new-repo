@@ -98,5 +98,15 @@ void print_list(node* head){
     }
 }
 
+int countElements(node* head){
+    if (!head){printf("La lista è vuota.");}
+    int counter=0;
+    while(head != NULL){
+        counter=counter+1;
+        head=head->next;
+    }
+    return counter;
+}
+
 int main(){
 }
