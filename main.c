@@ -27,6 +27,9 @@ int main() {
         case 6:
         system("executable\\valutaStudenti.exe");
         break;
+        case 7:
+        system("executable\\UnionUsage.exe");
+        break;
     }
     return 0;
 }
