@@ -41,12 +41,61 @@ node* add_head(node* head){
  * @param head 
  */
 node* add_tail(node* head){
+    node* temp= head;
     if (!head) return NULL;
     node* new = new_node();
     while(head->next!=NULL){
         head = head->next;
     }
     head->next=new;
+    return temp;
+}
+
+/**
+ * @brief elimina il nodo in testa
+ * 
+ * @param head 
+ * @return head 
+ */
+node* delete_head(node* head){
+    if (!head) return NULL;
+    node* temp = head->next;
+    free(head);
+    head = temp;
+    return head;
+}
+
+/**
+ * @brief elimina l'elemento in coda
+ * 
+ * @param head 
+ * @return head
+ */
+node* delete_tail(node* head){
+    if (!head) return NULL;
+    if(head->next==NULL){
+        free(head);
+        return NULL;
+    }
+    node* temp=head;
+    while(head->next->next!=NULL){
+        head=head->next;
+    }
+    free(head->next);
+    head->next=NULL;
+    return temp;
+}
+/**
+ * @brief stampiamo la lista
+ * 
+ * @param head 
+ */
+void print_list(node* head){
+    if (!head){printf("La lista è vuota.");}
+    while(head != NULL){
+        printf("%s\n", head->data);
+        head=head->next;
+    }
 }
 
 int main(){
