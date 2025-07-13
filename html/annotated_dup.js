@@ -5,6 +5,7 @@ var annotated_dup =
     [ "FileError", "struct_file_error.html", "struct_file_error" ],
     [ "InputError", "struct_input_error.html", "struct_input_error" ],
     [ "NetworkError", "struct_network_error.html", "struct_network_error" ],
+    [ "node", "structnode.html", "structnode" ],
     [ "professore", "structprofessore.html", "structprofessore" ],
     [ "studente", "structstudente.html", "structstudente" ]
 ];

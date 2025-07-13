@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['network_0',['network',['../union_error_message.html#a897067cfdfe047e827cc5182d025abb5',1,'ErrorMessage']]],
-  ['networkerr_1',['NetworkERR',['../_union_usage_8c.html#a94a8b8c5237bb5735dd681fca7fbe451',1,'UnionUsage.c']]],
-  ['nome_2',['nome',['../structstudente.html#a326df0f282da8ca790c9dc8da3cb6979',1,'studente::nome'],['../structprofessore.html#a3b7ea7403535eb4c2e5f6269b2deeeee',1,'professore::nome']]]
+  ['materia_0',['materia',['../structprofessore.html#af65da0e04772d6a8c89bdcd2636f159a',1,'professore']]],
+  ['media_1',['media',['../structstudente.html#abb8ee15af040a13d2fda66f2bcf2f126',1,'studente']]],
+  ['messaggio_2',['messaggio',['../struct_errore.html#ad43b5c37e57e8009b99e230cfaaebc10',1,'Errore']]]
 ];

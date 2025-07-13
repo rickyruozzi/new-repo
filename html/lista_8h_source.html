@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.14.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>new-repo: Strutture dati</title>
+<title>new-repo:  File sorgente header/lista.h</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -62,7 +62,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(function(){initNavTree('annotated.html','',''); });
+$(function(){initNavTree('lista_8h_source.html','',''); });
 </script>
 <div id="container">
 <div id="doc-content">
@@ -88,27 +88,30 @@ $(function(){initNavTree('annotated.html','',''); });
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">Strutture dati</div></div>
+  <div class="headertitle"><div class="title">lista.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock">Queste sono le strutture dati con una loro breve descrizione:</div><div class="directory">
-<table class="directory">
-<tr id="row_0_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="struct_errore.html" target="_self">Errore</a></td><td class="desc"></td></tr>
-<tr id="row_1_" class="odd"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="union_error_message.html" target="_self">ErrorMessage</a></td><td class="desc"></td></tr>
-<tr id="row_2_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="struct_file_error.html" target="_self">FileError</a></td><td class="desc"></td></tr>
-<tr id="row_3_" class="odd"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="struct_input_error.html" target="_self">InputError</a></td><td class="desc"></td></tr>
-<tr id="row_4_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="struct_network_error.html" target="_self">NetworkError</a></td><td class="desc"></td></tr>
-<tr id="row_5_" class="odd"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="structnode.html" target="_self">node</a></td><td class="desc"></td></tr>
-<tr id="row_6_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="structprofessore.html" target="_self">professore</a></td><td class="desc"></td></tr>
-<tr id="row_7_" class="odd"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="structstudente.html" target="_self">studente</a></td><td class="desc"></td></tr>
-</table>
-</div><!-- directory -->
-</div><!-- contents -->
+<a href="lista_8h.html">Vai alla documentazione di questo file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef LISTA_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define LISTA_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno"><a class="line" href="lista_8h.html#aabf4f709c8199e41cf279c77112345fe">    3</a></span><span class="preprocessor">#define MAX_LEN 100</span></div>
+<div class="foldopen" id="foldopen00004" data-start="{" data-end="};">
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno"><a class="line" href="structnode.html">    4</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno"><a class="line" href="structnode.html#a5c449ac988125bcc21dcee8783fa364b">    5</a></span>    <span class="keywordtype">char</span> <a class="code hl_variable" href="structnode.html#a5c449ac988125bcc21dcee8783fa364b">data</a>[<a class="code hl_define" href="lista_8h.html#aabf4f709c8199e41cf279c77112345fe">MAX_LEN</a>];</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno"><a class="line" href="structnode.html#aad210fa7c160a49f6b9a3ffee592a2bc">    6</a></span>    <a class="code hl_struct" href="structnode.html">node</a>* <a class="code hl_variable" href="structnode.html#aad210fa7c160a49f6b9a3ffee592a2bc">next</a>;</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>} <a class="code hl_struct" href="structnode.html">node</a>;</div>
+</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="alista_8h_html_aabf4f709c8199e41cf279c77112345fe"><div class="ttname"><a href="lista_8h.html#aabf4f709c8199e41cf279c77112345fe">MAX_LEN</a></div><div class="ttdeci">#define MAX_LEN</div><div class="ttdef"><b>Definition</b> lista.h:3</div></div>
+<div class="ttc" id="astructnode_html"><div class="ttname"><a href="structnode.html">node</a></div><div class="ttdef"><b>Definition</b> lista.h:4</div></div>
+<div class="ttc" id="astructnode_html_a5c449ac988125bcc21dcee8783fa364b"><div class="ttname"><a href="structnode.html#a5c449ac988125bcc21dcee8783fa364b">node::data</a></div><div class="ttdeci">char data[MAX_LEN]</div><div class="ttdef"><b>Definition</b> lista.h:5</div></div>
+<div class="ttc" id="astructnode_html_aad210fa7c160a49f6b9a3ffee592a2bc"><div class="ttname"><a href="structnode.html#aad210fa7c160a49f6b9a3ffee592a2bc">node::next</a></div><div class="ttdeci">node * next</div><div class="ttdef"><b>Definition</b> lista.h:6</div></div>
+</div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a href="dir_1ec98ce50fa6ec55b40b8ffb1df38c3c.html">header</a></li><li class="navelem"><a href="lista_8h.html">lista.h</a></li>
     <li class="footer">Generato da <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>

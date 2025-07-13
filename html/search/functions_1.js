@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['highestavg_0',['highestAVG',['../_valuta_studenti_8c.html#aded5147d7b08347b962d027d1530162a',1,'ValutaStudenti.c']]]
+  ['delete_5fhead_0',['delete_head',['../_lista_8c.html#ac9d6f87e42452e0b9ad10c626f435a9b',1,'Lista.c']]],
+  ['delete_5ftail_1',['delete_tail',['../_lista_8c.html#a8be7ec26f6cd51219be210b939a6bbd3',1,'Lista.c']]]
 ];

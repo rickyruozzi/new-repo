@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['findindex_0',['findIndex',['../_find_element_8c.html#a2a238799924cf0ccb5674397c0e57ccd',1,'FindElement.c']]],
-  ['findlen_1',['findLen',['../_reverse_string_8c.html#a09c866e10d3ae44e3ca7626845f164a7',1,'ReverseString.c']]]
+  ['add_5fhead_0',['add_head',['../_lista_8c.html#a589e2985bc1b41a1392960746f2c929e',1,'Lista.c']]],
+  ['add_5ftail_1',['add_tail',['../_lista_8c.html#a5f4cee015f0b567abe90ead5e4359c96',1,'Lista.c']]]
 ];

@@ -34,7 +34,20 @@ var menudata={children:[
 {text:"File",url:"files.html",children:[
 {text:"Elenco dei file",url:"files.html"},
 {text:"Elementi globali",url:"globals.html",children:[
-{text:"Tutto",url:"globals.html"},
+{text:"Tutto",url:"globals.html",children:[
+{text:"a",url:"globals.html#index_a"},
+{text:"d",url:"globals.html#index_d"},
+{text:"e",url:"globals.html#index_e"},
+{text:"f",url:"globals.html#index_f"},
+{text:"h",url:"globals.html#index_h"},
+{text:"i",url:"globals.html#index_i"},
+{text:"l",url:"globals.html#index_l"},
+{text:"m",url:"globals.html#index_m"},
+{text:"n",url:"globals.html#index_n"},
+{text:"p",url:"globals.html#index_p"},
+{text:"r",url:"globals.html#index_r"},
+{text:"s",url:"globals.html#index_s"},
+{text:"t",url:"globals.html#index_t"}]},
 {text:"Funzioni",url:"globals_func.html"},
 {text:"Variabili",url:"globals_vars.html"},
 {text:"Tipi enumerati (enum)",url:"globals_enum.html"},

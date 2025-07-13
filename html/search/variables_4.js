@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['materia_0',['materia',['../structprofessore.html#af65da0e04772d6a8c89bdcd2636f159a',1,'professore']]],
-  ['media_1',['media',['../structstudente.html#abb8ee15af040a13d2fda66f2bcf2f126',1,'studente']]],
-  ['messaggio_2',['messaggio',['../struct_errore.html#ad43b5c37e57e8009b99e230cfaaebc10',1,'Errore']]]
+  ['input_0',['input',['../struct_input_error.html#a02562a8d5feec6a5f4d903b4cbd9509b',1,'InputError::input'],['../union_error_message.html#a3399e9d605f8e842572904c2ab4c8082',1,'ErrorMessage::input']]],
+  ['inputerr_1',['InputERR',['../_union_usage_8c.html#aa71cdc94b99b442a242bd893877f6b63',1,'UnionUsage.c']]]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['valutastudenti_2ec_0',['ValutaStudenti.c',['../_valuta_studenti_8c.html',1,'']]]
+  ['unionusage_2ec_0',['UnionUsage.c',['../_union_usage_8c.html',1,'']]],
+  ['url_1',['url',['../struct_network_error.html#ab54cf2ffe7a35b9c7d13233fd5dac79f',1,'NetworkError']]]
 ];
