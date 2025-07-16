@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['main_0',['main',['../main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;main.c'],['../_find_element_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;FindElement.c'],['../_find_sum_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;FindSum.c'],['../_lista_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;Lista.c'],['../_prove_di_visualizzazione_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;ProveDiVisualizzazione.c'],['../reverse_array_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;reverseArray.c'],['../_reverse_string_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;ReverseString.c'],['../_union_usage_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;UnionUsage.c'],['../_valuta_studenti_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;ValutaStudenti.c'],['../string_split_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;stringSplit.c']]]
+  ['findindex_0',['findIndex',['../_find_element_8c.html#a2a238799924cf0ccb5674397c0e57ccd',1,'FindElement.c']]],
+  ['findlen_1',['findLen',['../_reverse_string_8c.html#a09c866e10d3ae44e3ca7626845f164a7',1,'ReverseString.c']]]
 ];

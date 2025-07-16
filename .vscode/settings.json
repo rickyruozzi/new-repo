@@ -4,6 +4,15 @@
         "stdlib.h": "c",
         "stdio.h": "c",
         "ruoli.h": "c",
-        "string.h": "c"
+        "string.h": "c",
+        "charconv": "c",
+        "optional": "c",
+        "format": "c",
+        "system_error": "c",
+        "array": "c",
+        "functional": "c",
+        "tuple": "c",
+        "type_traits": "c",
+        "utility": "c"
     }
 }

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['new_5fnode_0',['new_node',['../_lista_8c.html#a169a25e42f535e62afeea64bb05b297e',1,'Lista.c']]]
+  ['highestavg_0',['highestAVG',['../_valuta_studenti_8c.html#aded5147d7b08347b962d027d1530162a',1,'ValutaStudenti.c']]]
 ];

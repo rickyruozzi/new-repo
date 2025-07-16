@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['stampa_5ferrore_0',['stampa_errore',['../_union_usage_8c.html#a7d65bb73e32ab394c78a0fd17d6a3650',1,'UnionUsage.c']]],
-  ['stringsplit_1',['stringSplit',['../string_split_8c.html#afa83d18ccdb45798d49a1769670a6bad',1,'stringSplit.c']]],
-  ['stringsplit_2ec_2',['stringSplit.c',['../string_split_8c.html',1,'']]],
-  ['studente_3',['studente',['../structstudente.html',1,'']]]
+  ['queue_0',['Queue',['../struct_queue.html',1,'']]],
+  ['queue_2ec_1',['queue.c',['../queue_8c.html',1,'']]],
+  ['queue_2eh_2',['queue.h',['../queue_8h.html',1,'']]],
+  ['queuenode_3',['QueueNode',['../struct_queue_node.html',1,'QueueNode'],['../queue_8h.html#ae89879d40f2de520473f2e823b6272df',1,'QueueNode:&#160;queue.h']]]
 ];

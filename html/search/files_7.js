@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['valutastudenti_2ec_0',['ValutaStudenti.c',['../_valuta_studenti_8c.html',1,'']]]
+  ['stringsplit_2ec_0',['stringSplit.c',['../string_split_8c.html',1,'']]]
 ];

@@ -1,10 +1,11 @@
 var searchData=
 [
-  ['network_0',['network',['../union_error_message.html#a897067cfdfe047e827cc5182d025abb5',1,'ErrorMessage']]],
-  ['networkerr_1',['NetworkERR',['../_union_usage_8c.html#a94a8b8c5237bb5735dd681fca7fbe451',1,'UnionUsage.c']]],
-  ['networkerror_2',['NetworkError',['../struct_network_error.html',1,'']]],
-  ['new_5fnode_3',['new_node',['../_lista_8c.html#a169a25e42f535e62afeea64bb05b297e',1,'Lista.c']]],
-  ['next_4',['next',['../structnode.html#aad210fa7c160a49f6b9a3ffee592a2bc',1,'node']]],
-  ['node_5',['node',['../structnode.html',1,'']]],
-  ['nome_6',['nome',['../structstudente.html#a326df0f282da8ca790c9dc8da3cb6979',1,'studente::nome'],['../structprofessore.html#a3b7ea7403535eb4c2e5f6269b2deeeee',1,'professore::nome']]]
+  ['main_0',['main',['../main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;main.c'],['../_albero_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;Albero.c'],['../_find_element_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;FindElement.c'],['../_find_sum_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;FindSum.c'],['../_lista_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;Lista.c'],['../_prove_di_visualizzazione_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;ProveDiVisualizzazione.c'],['../reverse_array_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;reverseArray.c'],['../_reverse_string_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;ReverseString.c'],['../_union_usage_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;UnionUsage.c'],['../_valuta_studenti_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;ValutaStudenti.c'],['../string_split_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;stringSplit.c']]],
+  ['main_2ec_1',['main.c',['../main_8c.html',1,'']]],
+  ['materia_2',['materia',['../structprofessore.html#af65da0e04772d6a8c89bdcd2636f159a',1,'professore']]],
+  ['max_3',['MAX',['../_albero_8c.html#afa99ec4acc4ecb2dc3c2d05da15d0e3f',1,'Albero.c']]],
+  ['max_5flen_4',['MAX_LEN',['../albero_8h.html#aabf4f709c8199e41cf279c77112345fe',1,'MAX_LEN:&#160;albero.h'],['../lista_8h.html#aabf4f709c8199e41cf279c77112345fe',1,'MAX_LEN:&#160;lista.h']]],
+  ['max_5flength_5',['MAX_LENGTH',['../ruoli_8h.html#a7a9a231e30b47bc0345749c8bd1e5077',1,'ruoli.h']]],
+  ['media_6',['media',['../structstudente.html#abb8ee15af040a13d2fda66f2bcf2f126',1,'studente']]],
+  ['messaggio_7',['messaggio',['../struct_errore.html#ad43b5c37e57e8009b99e230cfaaebc10',1,'Errore']]]
 ];

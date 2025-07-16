@@ -7,5 +7,7 @@ var annotated_dup =
     [ "NetworkError", "struct_network_error.html", "struct_network_error" ],
     [ "node", "structnode.html", "structnode" ],
     [ "professore", "structprofessore.html", "structprofessore" ],
+    [ "Queue", "struct_queue.html", "struct_queue" ],
+    [ "QueueNode", "struct_queue_node.html", "struct_queue_node" ],
     [ "studente", "structstudente.html", "structstudente" ]
 ];

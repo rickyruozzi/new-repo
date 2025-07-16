@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['delete_5fhead_0',['delete_head',['../_lista_8c.html#ac9d6f87e42452e0b9ad10c626f435a9b',1,'Lista.c']]],
-  ['delete_5ftail_1',['delete_tail',['../_lista_8c.html#a8be7ec26f6cd51219be210b939a6bbd3',1,'Lista.c']]]
+  ['bfs_0',['BFS',['../_albero_8c.html#acff2e7061cbf3cc0c5c05bb4e931b609',1,'Albero.c']]]
 ];

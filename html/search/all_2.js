@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['data_0',['data',['../structnode.html#a5c449ac988125bcc21dcee8783fa364b',1,'node']]],
-  ['delete_5fhead_1',['delete_head',['../_lista_8c.html#ac9d6f87e42452e0b9ad10c626f435a9b',1,'Lista.c']]],
-  ['delete_5ftail_2',['delete_tail',['../_lista_8c.html#a8be7ec26f6cd51219be210b939a6bbd3',1,'Lista.c']]]
+  ['cognome_0',['cognome',['../structstudente.html#a11cc57b0d7bb3ce4f6e02acff472c73a',1,'studente::cognome'],['../structprofessore.html#aca45817b6a45c67e0b5024c2aac481df',1,'professore::cognome']]],
+  ['countelements_1',['countElements',['../_lista_8c.html#a561f505fd05d8fbb25f6a4934c1770e3',1,'Lista.c']]],
+  ['countleafs_2',['countLeafs',['../_albero_8c.html#a8f5fe006ff9d81208399bb91b7679757',1,'Albero.c']]],
+  ['createnode_3',['createNode',['../_albero_8c.html#ab99b385bc6420f7a610ef8ee3277acd7',1,'Albero.c']]]
 ];

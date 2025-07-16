@@ -40,6 +40,7 @@ var NAVTREE =
         [ "Tutto", "globals.html", null ],
         [ "Funzioni", "globals_func.html", null ],
         [ "Variabili", "globals_vars.html", null ],
+        [ "Ridefinizioni di tipo (typedef)", "globals_type.html", null ],
         [ "Tipi enumerati (enum)", "globals_enum.html", null ],
         [ "Valori del tipo enumerato", "globals_eval.html", null ],
         [ "Definizioni", "globals_defs.html", null ]
@@ -50,7 +51,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_find_element_8c.html"
+"_albero_8c.html"
 ];
 
 var SYNCONMSG = 'cliccare per disabilitare la sincronizzazione del pannello';

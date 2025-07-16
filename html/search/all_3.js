@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['errore_0',['Errore',['../struct_errore.html',1,'']]],
-  ['errore_5ffile_1',['ERRORE_FILE',['../_union_usage_8c.html#adbfe5ae3583c034bc920ae267b56c287a1c5055c788b80c1c8b195b6cadff6fb7',1,'UnionUsage.c']]],
-  ['errore_5finput_2',['ERRORE_INPUT',['../_union_usage_8c.html#adbfe5ae3583c034bc920ae267b56c287a6cd3fbda7255d7dc98e326b61300760e',1,'UnionUsage.c']]],
-  ['errore_5frete_3',['ERRORE_RETE',['../_union_usage_8c.html#adbfe5ae3583c034bc920ae267b56c287ad5e00c4479cc4ae1c49805f5a0601c7d',1,'UnionUsage.c']]],
-  ['errormessage_4',['ErrorMessage',['../union_error_message.html',1,'']]]
+  ['data_0',['data',['../structnode.html#a5c449ac988125bcc21dcee8783fa364b',1,'node']]],
+  ['delete_5fhead_1',['delete_head',['../_lista_8c.html#ac9d6f87e42452e0b9ad10c626f435a9b',1,'Lista.c']]],
+  ['delete_5ftail_2',['delete_tail',['../_lista_8c.html#a8be7ec26f6cd51219be210b939a6bbd3',1,'Lista.c']]],
+  ['dequeue_3',['dequeue',['../queue_8h.html#a1683c035029f85266e3c175cef7916d3',1,'dequeue(Queue *q):&#160;queue.c'],['../queue_8c.html#a1683c035029f85266e3c175cef7916d3',1,'dequeue(Queue *q):&#160;queue.c']]],
+  ['dfs_4',['DFS',['../_albero_8c.html#ad388add7beacd8dab5798c7647d3b5a2',1,'Albero.c']]]
 ];

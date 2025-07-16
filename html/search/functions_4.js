@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['lowestavg_0',['lowestAVG',['../_valuta_studenti_8c.html#a494af334a1fc101f067ae28eaa872749',1,'ValutaStudenti.c']]]
+  ['enqueue_0',['enqueue',['../queue_8h.html#a49fc90f815bdbf49b4e837ba51fe4dc6',1,'enqueue(Queue *q, node *value):&#160;queue.c'],['../queue_8c.html#a49fc90f815bdbf49b4e837ba51fe4dc6',1,'enqueue(Queue *q, node *value):&#160;queue.c']]]
 ];

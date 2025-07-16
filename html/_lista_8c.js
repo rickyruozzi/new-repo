@@ -2,6 +2,7 @@ var _lista_8c =
 [
     [ "add_head", "_lista_8c.html#a589e2985bc1b41a1392960746f2c929e", null ],
     [ "add_tail", "_lista_8c.html#a5f4cee015f0b567abe90ead5e4359c96", null ],
+    [ "countElements", "_lista_8c.html#a561f505fd05d8fbb25f6a4934c1770e3", null ],
     [ "delete_head", "_lista_8c.html#ac9d6f87e42452e0b9ad10c626f435a9b", null ],
     [ "delete_tail", "_lista_8c.html#a8be7ec26f6cd51219be210b939a6bbd3", null ],
     [ "main", "_lista_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4", null ],

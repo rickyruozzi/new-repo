@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['unionusage_2ec_0',['UnionUsage.c',['../_union_usage_8c.html',1,'']]],
-  ['url_1',['url',['../struct_network_error.html#ab54cf2ffe7a35b9c7d13233fd5dac79f',1,'NetworkError']]]
+  ['search_5fvalue_0',['search_value',['../_albero_8c.html#ad2f7bf3f089fd0b794f30ce9b937f1b9',1,'Albero.c']]],
+  ['stampa_5ferrore_1',['stampa_errore',['../_union_usage_8c.html#a7d65bb73e32ab394c78a0fd17d6a3650',1,'UnionUsage.c']]],
+  ['stringsplit_2',['stringSplit',['../string_split_8c.html#afa83d18ccdb45798d49a1769670a6bad',1,'stringSplit.c']]],
+  ['stringsplit_2ec_3',['stringSplit.c',['../string_split_8c.html',1,'']]],
+  ['studente_4',['studente',['../structstudente.html',1,'']]]
 ];
