@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="it">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>new-repo:  File sorgente header/heap.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">new-repo<span id="projectnumber">&#160;1</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Cerca',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('heap_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Caricamento in corso...</div>
+<div class="SRStatus" id="Searching">Ricerca in corso...</div>
+<div class="SRStatus" id="NoMatches">Nessun risultato</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">heap.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="heap_8h.html">Vai alla documentazione di questo file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef HEAP_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define HEAP_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno"><a class="line" href="heap_8h.html#abc29155cbf8d3ba92a8cb487bbabdc66">    3</a></span><span class="preprocessor">#define MAX_CAPACITY 20</span></div>
+<div class="foldopen" id="foldopen00004" data-start="{" data-end="};">
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno"><a class="line" href="struct_min_heap.html">    4</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="struct_min_heap.html">MinHeap</a>{</div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno"><a class="line" href="struct_min_heap.html#a9bd4b31bd87a07d32abce19356749c0e">    5</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="struct_min_heap.html#a9bd4b31bd87a07d32abce19356749c0e">array</a>[<a class="code hl_define" href="heap_8h.html#abc29155cbf8d3ba92a8cb487bbabdc66">MAX_CAPACITY</a>];</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno"><a class="line" href="struct_min_heap.html#a656a275b0ca8c80647d6251c09d31247">    6</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="struct_min_heap.html#a656a275b0ca8c80647d6251c09d31247">size</a>;</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="heap_8h.html#a1e5fd185949dff8674c0c3b0917cf35d">    7</a></span>} <a class="code hl_struct" href="struct_min_heap.html">MinHeap</a>;</div>
+</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keywordtype">void</span> <a class="code hl_function" href="heap_8h.html#af1d3fed78c3b2f7baaf86103d87510ff">initHeap</a>(<a class="code hl_struct" href="struct_min_heap.html">MinHeap</a>* heap);</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keywordtype">void</span> <a class="code hl_function" href="heap_8h.html#a0a5154baa330acd81b0624fcbc0fa959">insert</a>(<a class="code hl_struct" href="struct_min_heap.html">MinHeap</a>* heap, <span class="keywordtype">int</span> value);</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keywordtype">int</span> <a class="code hl_function" href="heap_8h.html#ae7812f45ad2980faa5b5935290062e77">extractMin</a>(<a class="code hl_struct" href="struct_min_heap.html">MinHeap</a>* heap);</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keywordtype">int</span> <a class="code hl_function" href="heap_8h.html#a268980d67b16e772a83d851a8537a354">getMin</a>(<a class="code hl_struct" href="struct_min_heap.html">MinHeap</a>* heap);</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keywordtype">void</span> <a class="code hl_function" href="heap_8h.html#a8d9196180143e9f5ad01eab9387c47ff">printHeapDFS</a>(<a class="code hl_struct" href="struct_min_heap.html">MinHeap</a>* heap, <span class="keywordtype">int</span> i);</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keywordtype">void</span> <a class="code hl_function" href="heap_8h.html#a36ceadeca3bca71c13d1e6f355a7d7d1">printHeapBFS</a>(<a class="code hl_struct" href="struct_min_heap.html">MinHeap</a>* heap);</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aheap_8h_html_a0a5154baa330acd81b0624fcbc0fa959"><div class="ttname"><a href="heap_8h.html#a0a5154baa330acd81b0624fcbc0fa959">insert</a></div><div class="ttdeci">void insert(MinHeap *heap, int value)</div><div class="ttdoc">inserisce un elemento in fondo al&#39;array e richiama heapify per riordinare l&#39;heap</div><div class="ttdef"><b>Definition</b> heap.c:152</div></div>
+<div class="ttc" id="aheap_8h_html_a268980d67b16e772a83d851a8537a354"><div class="ttname"><a href="heap_8h.html#a268980d67b16e772a83d851a8537a354">getMin</a></div><div class="ttdeci">int getMin(MinHeap *heap)</div><div class="ttdoc">restituisce il valore minimo</div><div class="ttdef"><b>Definition</b> heap.c:119</div></div>
+<div class="ttc" id="aheap_8h_html_a36ceadeca3bca71c13d1e6f355a7d7d1"><div class="ttname"><a href="heap_8h.html#a36ceadeca3bca71c13d1e6f355a7d7d1">printHeapBFS</a></div><div class="ttdeci">void printHeapBFS(MinHeap *heap)</div><div class="ttdoc">stampa l&#39;heap tramite BFS</div><div class="ttdef"><b>Definition</b> heap.c:128</div></div>
+<div class="ttc" id="aheap_8h_html_a8d9196180143e9f5ad01eab9387c47ff"><div class="ttname"><a href="heap_8h.html#a8d9196180143e9f5ad01eab9387c47ff">printHeapDFS</a></div><div class="ttdeci">void printHeapDFS(MinHeap *heap, int i)</div><div class="ttdoc">stampa l&#39;heap tramite DFS</div><div class="ttdef"><b>Definition</b> heap.c:140</div></div>
+<div class="ttc" id="aheap_8h_html_abc29155cbf8d3ba92a8cb487bbabdc66"><div class="ttname"><a href="heap_8h.html#abc29155cbf8d3ba92a8cb487bbabdc66">MAX_CAPACITY</a></div><div class="ttdeci">#define MAX_CAPACITY</div><div class="ttdef"><b>Definition</b> heap.h:3</div></div>
+<div class="ttc" id="aheap_8h_html_ae7812f45ad2980faa5b5935290062e77"><div class="ttname"><a href="heap_8h.html#ae7812f45ad2980faa5b5935290062e77">extractMin</a></div><div class="ttdeci">int extractMin(MinHeap *heap)</div><div class="ttdoc">estrae e restituisce il minimum</div><div class="ttdef"><b>Definition</b> heap.c:104</div></div>
+<div class="ttc" id="aheap_8h_html_af1d3fed78c3b2f7baaf86103d87510ff"><div class="ttname"><a href="heap_8h.html#af1d3fed78c3b2f7baaf86103d87510ff">initHeap</a></div><div class="ttdeci">void initHeap(MinHeap *heap)</div><div class="ttdoc">inizializzazione dell&#39;array</div><div class="ttdef"><b>Definition</b> heap.c:10</div></div>
+<div class="ttc" id="astruct_min_heap_html"><div class="ttname"><a href="struct_min_heap.html">MinHeap</a></div><div class="ttdef"><b>Definition</b> heap.h:4</div></div>
+<div class="ttc" id="astruct_min_heap_html_a656a275b0ca8c80647d6251c09d31247"><div class="ttname"><a href="struct_min_heap.html#a656a275b0ca8c80647d6251c09d31247">MinHeap::size</a></div><div class="ttdeci">int size</div><div class="ttdef"><b>Definition</b> heap.h:6</div></div>
+<div class="ttc" id="astruct_min_heap_html_a9bd4b31bd87a07d32abce19356749c0e"><div class="ttname"><a href="struct_min_heap.html#a9bd4b31bd87a07d32abce19356749c0e">MinHeap::array</a></div><div class="ttdeci">int array[MAX_CAPACITY]</div><div class="ttdef"><b>Definition</b> heap.h:5</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_1ec98ce50fa6ec55b40b8ffb1df38c3c.html">header</a></li><li class="navelem"><a href="heap_8h.html">heap.h</a></li>
+    <li class="footer">Generato da <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

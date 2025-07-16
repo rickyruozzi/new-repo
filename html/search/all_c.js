@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['queue_0',['Queue',['../struct_queue.html',1,'']]],
-  ['queue_2ec_1',['queue.c',['../queue_8c.html',1,'']]],
-  ['queue_2eh_2',['queue.h',['../queue_8h.html',1,'']]],
-  ['queuenode_3',['QueueNode',['../struct_queue_node.html',1,'QueueNode'],['../queue_8h.html#ae89879d40f2de520473f2e823b6272df',1,'QueueNode:&#160;queue.h']]]
+  ['print_5flist_0',['print_list',['../_lista_8c.html#aee1812c095b7f9d760aaa95b8434badf',1,'Lista.c']]],
+  ['printheapbfs_1',['printHeapBFS',['../heap_8h.html#a36ceadeca3bca71c13d1e6f355a7d7d1',1,'printHeapBFS(MinHeap *heap):&#160;heap.c'],['../heap_8c.html#a36ceadeca3bca71c13d1e6f355a7d7d1',1,'printHeapBFS(MinHeap *heap):&#160;heap.c']]],
+  ['printheapdfs_2',['printHeapDFS',['../heap_8h.html#a8d9196180143e9f5ad01eab9387c47ff',1,'printHeapDFS(MinHeap *heap, int i):&#160;heap.c'],['../heap_8c.html#a8d9196180143e9f5ad01eab9387c47ff',1,'printHeapDFS(MinHeap *heap, int i):&#160;heap.c']]],
+  ['professore_3',['professore',['../structprofessore.html',1,'']]],
+  ['provedivisualizzazione_2ec_4',['ProveDiVisualizzazione.c',['../_prove_di_visualizzazione_8c.html',1,'']]]
 ];

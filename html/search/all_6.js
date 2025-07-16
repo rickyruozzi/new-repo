@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['highestavg_0',['highestAVG',['../_valuta_studenti_8c.html#aded5147d7b08347b962d027d1530162a',1,'ValutaStudenti.c']]]
+  ['getmin_0',['getMin',['../heap_8h.html#a268980d67b16e772a83d851a8537a354',1,'getMin(MinHeap *heap):&#160;heap.c'],['../heap_8c.html#a268980d67b16e772a83d851a8537a354',1,'getMin(MinHeap *heap):&#160;heap.c']]]
 ];

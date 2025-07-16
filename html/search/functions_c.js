@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['reversearray_0',['reverseArray',['../reverse_array_8c.html#af5d50ce9679e8dc4fda77bd45ff4f7ec',1,'reverseArray.c']]],
-  ['reversestring_1',['reverseString',['../_reverse_string_8c.html#ac8b5347752aeeca3b2ad0207ed1d82fb',1,'ReverseString.c']]]
+  ['print_5flist_0',['print_list',['../_lista_8c.html#aee1812c095b7f9d760aaa95b8434badf',1,'Lista.c']]],
+  ['printheapbfs_1',['printHeapBFS',['../heap_8h.html#a36ceadeca3bca71c13d1e6f355a7d7d1',1,'printHeapBFS(MinHeap *heap):&#160;heap.c'],['../heap_8c.html#a36ceadeca3bca71c13d1e6f355a7d7d1',1,'printHeapBFS(MinHeap *heap):&#160;heap.c']]],
+  ['printheapdfs_2',['printHeapDFS',['../heap_8h.html#a8d9196180143e9f5ad01eab9387c47ff',1,'printHeapDFS(MinHeap *heap, int i):&#160;heap.c'],['../heap_8c.html#a8d9196180143e9f5ad01eab9387c47ff',1,'printHeapDFS(MinHeap *heap, int i):&#160;heap.c']]]
 ];

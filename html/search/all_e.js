@@ -1,9 +1,13 @@
 var searchData=
 [
-  ['search_5fvalue_0',['search_value',['../_albero_8c.html#ad2f7bf3f089fd0b794f30ce9b937f1b9',1,'Albero.c']]],
-  ['stampa_5ferrore_1',['stampa_errore',['../_union_usage_8c.html#a7d65bb73e32ab394c78a0fd17d6a3650',1,'UnionUsage.c']]],
-  ['stringsplit_2',['stringSplit',['../string_split_8c.html#afa83d18ccdb45798d49a1769670a6bad',1,'stringSplit.c']]],
-  ['stringsplit_2ec_3',['stringSplit.c',['../string_split_8c.html',1,'']]],
-  ['studente_4',['studente',['../structstudente.html',1,'']]],
-  ['sum_5ftree_5',['sum_tree',['../_albero_8c.html#ae272d88f70c48e5045993ddbd36b648a',1,'Albero.c']]]
+  ['readme_0',['README',['../md__r_e_a_d_m_e.html',1,'']]],
+  ['readme_2emd_1',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
+  ['rear_2',['rear',['../struct_queue.html#a0cf05f13f4ce6a717e1eb225cd86d1d9',1,'Queue']]],
+  ['reversearray_3',['reverseArray',['../reverse_array_8c.html#af5d50ce9679e8dc4fda77bd45ff4f7ec',1,'reverseArray.c']]],
+  ['reversearray_2ec_4',['reverseArray.c',['../reverse_array_8c.html',1,'']]],
+  ['reversestring_5',['reverseString',['../_reverse_string_8c.html#ac8b5347752aeeca3b2ad0207ed1d82fb',1,'ReverseString.c']]],
+  ['reversestring_2ec_6',['ReverseString.c',['../_reverse_string_8c.html',1,'']]],
+  ['rightson_7',['rightSon',['../structnode.html#af704f467a8cc2ef230b553dd8d581cc1',1,'node']]],
+  ['rightson_8',['rightson',['../heap_8c.html#adf940bbd2b101ec0acb47d00a5572e6c',1,'heap.c']]],
+  ['ruoli_2eh_9',['ruoli.h',['../ruoli_8h.html',1,'']]]
 ];

@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['search_5fvalue_0',['search_value',['../_albero_8c.html#ad2f7bf3f089fd0b794f30ce9b937f1b9',1,'Albero.c']]],
-  ['stampa_5ferrore_1',['stampa_errore',['../_union_usage_8c.html#a7d65bb73e32ab394c78a0fd17d6a3650',1,'UnionUsage.c']]],
-  ['stringsplit_2',['stringSplit',['../string_split_8c.html#afa83d18ccdb45798d49a1769670a6bad',1,'stringSplit.c']]],
-  ['sum_5ftree_3',['sum_tree',['../_albero_8c.html#ae272d88f70c48e5045993ddbd36b648a',1,'Albero.c']]]
+  ['reversearray_0',['reverseArray',['../reverse_array_8c.html#af5d50ce9679e8dc4fda77bd45ff4f7ec',1,'reverseArray.c']]],
+  ['reversestring_1',['reverseString',['../_reverse_string_8c.html#ac8b5347752aeeca3b2ad0207ed1d82fb',1,'ReverseString.c']]],
+  ['rightson_2',['rightson',['../heap_8c.html#adf940bbd2b101ec0acb47d00a5572e6c',1,'heap.c']]]
 ];

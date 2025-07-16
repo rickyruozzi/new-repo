@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['initqueue_0',['initQueue',['../queue_8h.html#ad39e3e862333b65bf911c0ad9f1b3b50',1,'initQueue(Queue *q):&#160;queue.c'],['../queue_8c.html#ad39e3e862333b65bf911c0ad9f1b3b50',1,'initQueue(Queue *q):&#160;queue.c']]],
-  ['isempty_1',['isEmpty',['../queue_8h.html#a82fa2574dbb6f5d8e3bb7547a6f2233f',1,'isEmpty(Queue *q):&#160;queue.c'],['../queue_8c.html#a82fa2574dbb6f5d8e3bb7547a6f2233f',1,'isEmpty(Queue *q):&#160;queue.c']]]
+  ['heapifydown_0',['heapifyDown',['../heap_8c.html#a4383807aaf42e752fb82a491f5c34a89',1,'heap.c']]],
+  ['heapifyup_1',['heapifyUp',['../heap_8c.html#a34cd94f7049a5676fa700a136c8f9583',1,'heap.c']]],
+  ['heapsort_2',['heapSort',['../heap_8c.html#abdb7b984c99dc13fe4a8f7b25f80710b',1,'heap.c']]],
+  ['highestavg_3',['highestAVG',['../_valuta_studenti_8c.html#aded5147d7b08347b962d027d1530162a',1,'ValutaStudenti.c']]]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['professore_0',['professore',['../structprofessore.html',1,'']]]
+  ['networkerror_0',['NetworkError',['../struct_network_error.html',1,'']]],
+  ['node_1',['node',['../structnode.html',1,'']]]
 ];
