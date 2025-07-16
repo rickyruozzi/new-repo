@@ -162,6 +162,18 @@ void clear_memory(node* root){
         free(root);
     }
 }
+/**
+ * @brief funzione per contare il numero di nodi
+ * 
+ * @param root 
+ * @return int 
+ */
+int countNodes(node* root){
+    if(root==NULL){
+        return 0;
+    }
+    return 1+countNodes(root->leftSon)+countNodes(root->rightSon);
+}
 
 /**
  * @brief Funzione main per testare l'albero

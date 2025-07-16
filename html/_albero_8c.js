@@ -5,6 +5,7 @@ var _albero_8c =
     [ "BFS", "_albero_8c.html#acff2e7061cbf3cc0c5c05bb4e931b609", null ],
     [ "clear_memory", "_albero_8c.html#afddbf329e7a0a3b0e648d76913783807", null ],
     [ "countLeafs", "_albero_8c.html#a8f5fe006ff9d81208399bb91b7679757", null ],
+    [ "countNodes", "_albero_8c.html#aeed35b2effb513e53fb88f0503fced49", null ],
     [ "createNode", "_albero_8c.html#ab99b385bc6420f7a610ef8ee3277acd7", null ],
     [ "DFS", "_albero_8c.html#ad388add7beacd8dab5798c7647d3b5a2", null ],
     [ "main", "_albero_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4", null ],
