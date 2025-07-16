@@ -135,6 +135,35 @@ int search_value(node* root, int value){
 }
 
 /**
+ * @brief Calcola la somma di tutti i nodi dell'albero
+ * 
+ * @param root 
+ * @return int 
+ */
+int sum_tree(node* root){
+    if(root == NULL){
+        return 0;
+    }
+    // if(root->leftSon==NULL && root->rightSon==NULL){
+    //     return root->value;
+    // }
+    return root->value+sum_tree(root->leftSon)+sum_tree(root->rightSon);
+}
+
+/**
+ * @brief funzione per pulire la memoria
+ * 
+ * @param root 
+ */
+void clear_memory(node* root){
+    if (root != NULL) {
+        clear_memory(root->leftSon);
+        clear_memory(root->rightSon);
+        free(root);
+    }
+}
+
+/**
  * @brief Funzione main per testare l'albero
  */
 int main() {
