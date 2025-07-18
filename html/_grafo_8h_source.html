@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="it">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.13.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>new-repo:  File sorgente header/Grafo.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">new-repo<span id="projectnumber">&#160;1</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.13.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Cerca',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('_grafo_8h_source.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Caricamento in corso...</div>
+<div class="SRStatus" id="Searching">Ricerca in corso...</div>
+<div class="SRStatus" id="NoMatches">Nessun risultato</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Grafo.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_grafo_8h.html">Vai alla documentazione di questo file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef GRAFO_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define GRAFO_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span></div>
+<div class="foldopen" id="foldopen00011" data-start="{" data-end="};">
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="struct_nodo.html">   11</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="struct_nodo.html">Nodo</a> {</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="struct_nodo.html#a01dfcd341ed72ffc0ca86db92aa5f241">   12</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="struct_nodo.html#a01dfcd341ed72ffc0ca86db92aa5f241">destinazione</a>;</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="struct_nodo.html#aefc6bfd2c6ef7be1151caf144999b67a">   13</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="struct_nodo.html#aefc6bfd2c6ef7be1151caf144999b67a">peso</a>;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="struct_nodo.html#a65f769daadf4395c9343f1a722a966c0">   14</a></span>    <span class="keyword">struct </span><a class="code hl_struct" href="struct_nodo.html">Nodo</a>* <a class="code hl_variable" href="struct_nodo.html#a65f769daadf4395c9343f1a722a966c0">prossimo</a>;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="_grafo_8h.html#ab27a17935caedd91258058c352971251">   15</a></span>} <a class="code hl_struct" href="struct_nodo.html">Nodo</a>;</div>
+</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span></div>
+<div class="foldopen" id="foldopen00021" data-start="{" data-end="};">
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="struct_lista.html">   21</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="struct_lista.html">Lista</a> {</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="struct_lista.html#a4c65dbaedb636debb5ecb48a6a2b55ac">   22</a></span>    <a class="code hl_struct" href="struct_nodo.html">Nodo</a>* <a class="code hl_variable" href="struct_lista.html#a4c65dbaedb636debb5ecb48a6a2b55ac">testa</a>;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="_grafo_8h.html#ab6aeb4753d1976cda3b3db928711cfe5">   23</a></span>} <a class="code hl_struct" href="struct_lista.html">Lista</a>;</div>
+</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span></div>
+<div class="foldopen" id="foldopen00029" data-start="{" data-end="};">
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="struct_grafo.html">   29</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="struct_grafo.html">Grafo</a> {</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="struct_grafo.html#a4b94d0b87c25bb9e334cfaba2f9ea341">   30</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="struct_grafo.html#a4b94d0b87c25bb9e334cfaba2f9ea341">numVertici</a>;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="struct_grafo.html#a5473afc587a46723041f57cefc7d7218">   31</a></span>    <a class="code hl_struct" href="struct_lista.html">Lista</a>* <a class="code hl_variable" href="struct_grafo.html#a5473afc587a46723041f57cefc7d7218">arrayListe</a>;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="_grafo_8h.html#adab04f64457aac52a13e71e40915bd43">   32</a></span>} <a class="code hl_struct" href="struct_grafo.html">Grafo</a>;</div>
+</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><a class="code hl_struct" href="struct_nodo.html">Nodo</a>* <a class="code hl_function" href="_grafo_8h.html#a7890b17e82e45476533b7fee43f41331">creaNodo</a>(<span class="keywordtype">int</span> destinazione, <span class="keywordtype">int</span> peso);</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="comment">// Crea un grafo con n vertici</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><a class="code hl_struct" href="struct_grafo.html">Grafo</a>* <a class="code hl_function" href="_grafo_8h.html#a18918c019e79a2395c950f8a5f982ea5">creaGrafo</a>(<span class="keywordtype">int</span> numVertici);</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="comment">// Aggiunge un arco diretto pesato</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="keywordtype">void</span> <a class="code hl_function" href="_grafo_8h.html#ab5305e26885f0da50d87f9d2aabeedd3">aggiungiArco</a>(<a class="code hl_struct" href="struct_grafo.html">Grafo</a>* grafo, <span class="keywordtype">int</span> sorgente, <span class="keywordtype">int</span> destinazione, <span class="keywordtype">int</span> peso);</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="comment">// Stampa il grafo</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keywordtype">void</span> <a class="code hl_function" href="_grafo_8h.html#a5101f4d8e8e3246b52aca42cc12d1bb9">stampaGrafo</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_grafo.html">Grafo</a>* grafo);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="comment">// Libera la memoria del grafo</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="keywordtype">void</span> <a class="code hl_function" href="_grafo_8h.html#abf050fde35825e6f6a219eb9fab388b6">distruggiGrafo</a>(<a class="code hl_struct" href="struct_grafo.html">Grafo</a>* grafo);</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="keywordtype">void</span> <a class="code hl_function" href="_grafo_8h.html#af5299cded3d189100f002833494ee068">stampaVicini</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_grafo.html">Grafo</a>* grafo, <span class="keywordtype">int</span> sorgente);</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="keywordtype">bool</span> <a class="code hl_function" href="_grafo_8h.html#a180af52553c93b3dae610f3544dfde60">esisteArco</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_grafo.html">Grafo</a>* grafo, <span class="keywordtype">int</span> u, <span class="keywordtype">int</span> v);</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_grafo_8h_html_a180af52553c93b3dae610f3544dfde60"><div class="ttname"><a href="_grafo_8h.html#a180af52553c93b3dae610f3544dfde60">esisteArco</a></div><div class="ttdeci">bool esisteArco(const Grafo *grafo, int u, int v)</div><div class="ttdoc">verifica l&#39;esistenza di un arco</div><div class="ttdef"><b>Definition</b> Grafo.c:122</div></div>
+<div class="ttc" id="a_grafo_8h_html_a18918c019e79a2395c950f8a5f982ea5"><div class="ttname"><a href="_grafo_8h.html#a18918c019e79a2395c950f8a5f982ea5">creaGrafo</a></div><div class="ttdeci">Grafo * creaGrafo(int numVertici)</div><div class="ttdoc">crea un nuovo grafo</div><div class="ttdef"><b>Definition</b> Grafo.c:31</div></div>
+<div class="ttc" id="a_grafo_8h_html_a5101f4d8e8e3246b52aca42cc12d1bb9"><div class="ttname"><a href="_grafo_8h.html#a5101f4d8e8e3246b52aca42cc12d1bb9">stampaGrafo</a></div><div class="ttdeci">void stampaGrafo(const Grafo *grafo)</div><div class="ttdoc">stampa il grafo</div><div class="ttdef"><b>Definition</b> Grafo.c:68</div></div>
+<div class="ttc" id="a_grafo_8h_html_a7890b17e82e45476533b7fee43f41331"><div class="ttname"><a href="_grafo_8h.html#a7890b17e82e45476533b7fee43f41331">creaNodo</a></div><div class="ttdeci">Nodo * creaNodo(int destinazione, int peso)</div><div class="ttdoc">funzione crea nodo</div><div class="ttdef"><b>Definition</b> Grafo.c:13</div></div>
+<div class="ttc" id="a_grafo_8h_html_ab5305e26885f0da50d87f9d2aabeedd3"><div class="ttname"><a href="_grafo_8h.html#ab5305e26885f0da50d87f9d2aabeedd3">aggiungiArco</a></div><div class="ttdeci">void aggiungiArco(Grafo *grafo, int sorgente, int destinazione, int peso)</div><div class="ttdoc">aggiungi un grafo</div><div class="ttdef"><b>Definition</b> Grafo.c:57</div></div>
+<div class="ttc" id="a_grafo_8h_html_abf050fde35825e6f6a219eb9fab388b6"><div class="ttname"><a href="_grafo_8h.html#abf050fde35825e6f6a219eb9fab388b6">distruggiGrafo</a></div><div class="ttdeci">void distruggiGrafo(Grafo *grafo)</div><div class="ttdoc">distrugge il grafo</div><div class="ttdef"><b>Definition</b> Grafo.c:85</div></div>
+<div class="ttc" id="a_grafo_8h_html_af5299cded3d189100f002833494ee068"><div class="ttname"><a href="_grafo_8h.html#af5299cded3d189100f002833494ee068">stampaVicini</a></div><div class="ttdeci">void stampaVicini(const Grafo *grafo, int sorgente)</div><div class="ttdoc">stampa i vicini di un determinato nodo</div><div class="ttdef"><b>Definition</b> Grafo.c:104</div></div>
+<div class="ttc" id="astruct_grafo_html"><div class="ttname"><a href="struct_grafo.html">Grafo</a></div><div class="ttdoc">struttura rappresentante il grafo</div><div class="ttdef"><b>Definition</b> Grafo.h:29</div></div>
+<div class="ttc" id="astruct_grafo_html_a4b94d0b87c25bb9e334cfaba2f9ea341"><div class="ttname"><a href="struct_grafo.html#a4b94d0b87c25bb9e334cfaba2f9ea341">Grafo::numVertici</a></div><div class="ttdeci">int numVertici</div><div class="ttdef"><b>Definition</b> Grafo.h:30</div></div>
+<div class="ttc" id="astruct_grafo_html_a5473afc587a46723041f57cefc7d7218"><div class="ttname"><a href="struct_grafo.html#a5473afc587a46723041f57cefc7d7218">Grafo::arrayListe</a></div><div class="ttdeci">Lista * arrayListe</div><div class="ttdef"><b>Definition</b> Grafo.h:31</div></div>
+<div class="ttc" id="astruct_lista_html"><div class="ttname"><a href="struct_lista.html">Lista</a></div><div class="ttdoc">lista dei nodi che confinano con il grafo, ne esisteranno in numerouguale al numero dei nodi</div><div class="ttdef"><b>Definition</b> Grafo.h:21</div></div>
+<div class="ttc" id="astruct_lista_html_a4c65dbaedb636debb5ecb48a6a2b55ac"><div class="ttname"><a href="struct_lista.html#a4c65dbaedb636debb5ecb48a6a2b55ac">Lista::testa</a></div><div class="ttdeci">Nodo * testa</div><div class="ttdef"><b>Definition</b> Grafo.h:22</div></div>
+<div class="ttc" id="astruct_nodo_html"><div class="ttname"><a href="struct_nodo.html">Nodo</a></div><div class="ttdoc">Nodo del grafo.</div><div class="ttdef"><b>Definition</b> Grafo.h:11</div></div>
+<div class="ttc" id="astruct_nodo_html_a01dfcd341ed72ffc0ca86db92aa5f241"><div class="ttname"><a href="struct_nodo.html#a01dfcd341ed72ffc0ca86db92aa5f241">Nodo::destinazione</a></div><div class="ttdeci">int destinazione</div><div class="ttdef"><b>Definition</b> Grafo.h:12</div></div>
+<div class="ttc" id="astruct_nodo_html_a65f769daadf4395c9343f1a722a966c0"><div class="ttname"><a href="struct_nodo.html#a65f769daadf4395c9343f1a722a966c0">Nodo::prossimo</a></div><div class="ttdeci">struct Nodo * prossimo</div><div class="ttdef"><b>Definition</b> Grafo.h:14</div></div>
+<div class="ttc" id="astruct_nodo_html_aefc6bfd2c6ef7be1151caf144999b67a"><div class="ttname"><a href="struct_nodo.html#aefc6bfd2c6ef7be1151caf144999b67a">Nodo::peso</a></div><div class="ttdeci">int peso</div><div class="ttdef"><b>Definition</b> Grafo.h:13</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_1ec98ce50fa6ec55b40b8ffb1df38c3c.html">header</a></li><li class="navelem"><a class="el" href="_grafo_8h.html">Grafo.h</a></li>
+    <li class="footer">Generato da <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
+  </ul>
+</div>
+</body>
+</html>

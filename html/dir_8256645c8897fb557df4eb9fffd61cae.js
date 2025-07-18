@@ -1,8 +1,10 @@
 var dir_8256645c8897fb557df4eb9fffd61cae =
 [
     [ "Albero.c", "_albero_8c.html", "_albero_8c" ],
+    [ "FileFunctions.c", "_file_functions_8c.html", "_file_functions_8c" ],
     [ "FindElement.c", "_find_element_8c.html", "_find_element_8c" ],
     [ "FindSum.c", "_find_sum_8c.html", "_find_sum_8c" ],
+    [ "Grafo.c", "_grafo_8c.html", "_grafo_8c" ],
     [ "heap.c", "heap_8c.html", "heap_8c" ],
     [ "Lista.c", "_lista_8c.html", "_lista_8c" ],
     [ "ProveDiVisualizzazione.c", "_prove_di_visualizzazione_8c.html", "_prove_di_visualizzazione_8c" ],

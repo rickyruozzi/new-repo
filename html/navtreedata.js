@@ -56,4 +56,3 @@ var NAVTREEINDEX =
 
 var SYNCONMSG = 'cliccare per disabilitare la sincronizzazione del pannello';
 var SYNCOFFMSG = 'cliccare per abilitare la sincronizzazione del pannello';
-var LISTOFALLMEMBERS = 'Elenco di tutti i membri';

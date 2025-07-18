@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['value_0',['value',['../structnode.html#a1df258d4663fc36cfd0d5d93588aa21f',1,'node::value'],['../struct_queue_node.html#a136877f04fdb97f89f706502e5c7bbb3',1,'QueueNode::value']]]
+  ['testa_0',['testa',['../struct_lista.html#a4c65dbaedb636debb5ecb48a6a2b55ac',1,'Lista']]],
+  ['tipo_1',['tipo',['../struct_errore.html#a31d275689aaa0a1186a33d15a4967fd8',1,'Errore']]]
 ];

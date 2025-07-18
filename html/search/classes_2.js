@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['inputerror_0',['InputError',['../struct_input_error.html',1,'']]]
+  ['grafo_0',['Grafo',['../struct_grafo.html',1,'']]]
 ];

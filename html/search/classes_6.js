@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['queue_0',['Queue',['../struct_queue.html',1,'']]],
-  ['queuenode_1',['QueueNode',['../struct_queue_node.html',1,'']]]
+  ['networkerror_0',['NetworkError',['../struct_network_error.html',1,'']]],
+  ['node_1',['node',['../structnode.html',1,'']]],
+  ['nodo_2',['Nodo',['../struct_nodo.html',1,'']]]
 ];

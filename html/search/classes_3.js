@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['minheap_0',['MinHeap',['../struct_min_heap.html',1,'']]]
+  ['inputerror_0',['InputError',['../struct_input_error.html',1,'']]]
 ];
